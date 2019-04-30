@@ -1,0 +1,39 @@
+{
+  "name": "cabinet-style",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "joe.zhou <zsedc880@gmail.com>",
+  "homepage": "https://github.com/zsedc800/cabinet#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://xnpm.ximalaya.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsedc800/cabinet.git"
+  },
+  "scripts": {
+    "test": "jest -color",
+    "dev": "tsc -w"
+  },
+  "bugs": {
+    "url": "https://github.com/zsedc800/cabinet/issues"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/astring": "^1.3.0",
+    "acorn": "^6.1.1",
+    "astring": "^1.4.0"
+  }
+}
